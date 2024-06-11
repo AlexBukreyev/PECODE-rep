@@ -1,0 +1,16 @@
+{
+  "name": "pecode-rep",
+  "description": "test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "cypress": "^13.11.0",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "html-report": "cypress run — — spec <'../support>.js — — browser chrome — — headed"
+  },
+  "author": "",
+  "license": "ISC"
+}
